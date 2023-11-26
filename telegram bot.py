@@ -32,7 +32,7 @@ sticker_ids = [
     # Добавьте еще идентификаторы стикеров по вашему выбору
 ]
 
-
+# что делают строки ниже?
 @bot.message_handler(content_types='sticker')
 def handle_sticker(message):
         random_sticker_id = random.choice(sticker_ids)
